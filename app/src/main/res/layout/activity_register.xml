@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityRegister">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="რეგისტრაცია"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:textSize="20sp"
+            android:textColor="#000"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signupEmail"
+            android:layout_marginTop="50dp"
+            android:inputType="textEmailAddress"
+            android:hint="ელ. ფოსტა"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signupPassword"
+            android:layout_marginTop="5dp"
+            android:inputType="textPassword"
+            android:hint="პაროლი"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signupRepeatPassword"
+            android:layout_marginTop="5dp"
+            android:inputType="textPassword"
+            android:hint="გაიმეორეთ პაროლი"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/signupBtn"
+            android:layout_gravity="end"
+            android:layout_marginTop="5dp"
+            android:text="რეგისტრაცია"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="უკვე გაქვთ ანგარიში?"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" შედით სისტემაში."
+            android:textColor="#000"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</FrameLayout>

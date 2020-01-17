@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1000291992827",
+    "firebase_url": "https://finalexamtask.firebaseio.com",
+    "project_id": "finalexamtask",
+    "storage_bucket": "finalexamtask.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000291992827:android:853925367b2915bee91c5e",
+        "android_client_info": {
+          "package_name": "com.aleksandre.afinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000291992827-thgqbdmg82s0ci3r05jpn7jae1dere24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8HpfRoLXRLzaZj7YlnWzCaNgvBHNljMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000291992827-thgqbdmg82s0ci3r05jpn7jae1dere24.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
